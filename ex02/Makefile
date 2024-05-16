@@ -17,8 +17,7 @@ CXX = c++
 CXX_FLAGS = -Wall -Wextra -Werror -std=c++98
 
 SRC = main.cpp \
-	ScalarConverter.cpp \
-	main.cpp
+	Base.cpp
 
 %.o:	%.cpp
 	$(CXX) $(CXX_FLAGS) -c $< -o $@
